@@ -55,6 +55,8 @@ h2 { margin-bottom: 9px; color: var(--navy); font-size: clamp(2rem, 3.8vw, 3rem)
 .image-link img { display: block; width: 100%; height: auto; margin-inline: auto; }
 figcaption { padding: 22px 25px 24px; color: var(--muted); font-size: 15px; line-height: 1.68; }
 figcaption strong { color: var(--ink); font-weight: 750; }
+.result-note { margin: 18px 0 0; color: var(--muted); font-size: 15px; line-height: 1.75; }
+.result-note strong { color: var(--ink); }
 .result-block + .result-block { margin-top: 54px; }
 .result-label { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 14px; color: var(--navy); font-size: 20px; font-weight: 750; letter-spacing: -0.02em; }
 .dataset-tag { display: inline-flex; align-items: center; min-height: 26px; padding: 2px 10px; border: 1px solid #bfe3e7; border-radius: 999px; color: var(--cyan-dark); background: var(--soft-cyan); font-size: 12px; font-weight: 750; letter-spacing: 0.04em; white-space: nowrap; }
@@ -68,7 +70,7 @@ th, td { padding: 13px 14px; border-bottom: 1px solid #e8eef3; text-align: cente
 thead tr:first-child th { padding-top: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--line-strong); }
 thead tr:last-child th { padding-top: 10px; padding-bottom: 13px; }
 th:first-child, td:first-child { padding-left: 20px; text-align: left; }
-th:nth-child(2), td:nth-child(2) { text-align: left; }
+th:nth-child(2), td:nth-child(2) { text-align: center; }
 tbody th { color: var(--ink); font-weight: 650; }
 tbody td { color: #3f566c; font-size: 14px; }
 tbody tr:last-child th, tbody tr:last-child td { border-bottom: 0; }
